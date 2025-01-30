@@ -1,0 +1,45 @@
+
+<?php
+variable defination => $
+eg . $name ;
+$name = 'Hristhik';
+$hhhjhkjhkj = 'Ankita';
+
+inbuild function of php
+1)mysqli_connect() use =>The Function is use to connect database from mysqli_connect
+2)mysqli_query() use=> The function is use to run the queries;
+3)mysqli_fetch_array() user=> The funtion is use to retrive(fetch data from the table)from the table
+4)mysqli_num_rows() use => The function is use to get the number of rows which is stored in table
+
+Queries ->
+Why We use queries -> 
+->To store data which is stored in table
+->retrived data which is stored in table
+->update data which is stored in table
+->delete data which is stored in table
+
+
+1) Query I]-> Insert Query
+    eg.
+database -> shoefactory -> table  ->register
+Q1) Insert data into register table(data mentioned below) using insert query
+    data1->firstnmae
+    data2->lastnmae
+    data3->email
+    data4->password
+
+    INSERT INTO table_name(attributes)VALUES(values);
+
+    INSERT INTO register(fname,lname,email,pass)VAlUES('Pratik','Sawant','pratik@gmail.com','miveda')
+
+
+
+2) Query II]-> Select Query
+3) Query III]-> Update Query
+4) Query IV]-> Delete Query
+
+?>
+
+<?php
+$con = mysqli_connect('localhost','root','','sample')
+?>
